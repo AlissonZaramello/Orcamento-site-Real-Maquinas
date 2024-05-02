@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+body{
+    width: 2480px;
+    height: 3508px;
+}
+*/
+
+/* CABEÇALHO */
+
+header{
+    display: flex;
+    padding: 40px;
+}
+
+.info-loja{
+    padding: 20px 2%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.info-loja p{
+    font-weight: bolder;
+}
+
+
+
+.info-loja img{
+    width: 130px;
+}    
