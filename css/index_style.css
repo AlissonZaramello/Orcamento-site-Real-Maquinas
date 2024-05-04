@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/papelDeParedeLogin.jpg");
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout img{
+
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    width: 220px;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 20px;
+    }
+}
+
+.caixa-form p{
+    font-family: "Freeman", sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.caixa-form{
+    background-color: rgba(240, 248, 255, 0.856);
+    padding: 40px 4%;
+    border-radius: 30px;
+    width: 500px;
+    height: 300px;
+    margin: 0 0 20px 0;
+}
+
+.caixa-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-form form input{
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(185, 180, 180, 0.534);
+    border-radius: 20px;
+}
+
+.btn-enviar input{
+    width: 100%;
+    margin-top: 10px;
+    border: 0;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 20px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.btn-enviar input:hover{
+    box-shadow: 0px 0px 8px rgba(99, 95, 95, 0.801);
+    transform: scale(1.04);
+}
+
